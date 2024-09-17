@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/profile_videp_logo"
+          android:layout_width="75dp"
+          android:layout_height="match_parent"
+          android:layout_marginStart="5dp"
+          android:adjustViewBounds="true"
+          android:src="@drawable/videp_logo_icon" />
+
+      <ImageView
+          android:id="@+id/profileImage"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="40dp"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"
+          android:src="@mipmap/account_icon_foreground" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+      <TextView
+          android:id="@+id/firstNameProfile"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/siennaBrown"
+          android:textSize="30sp" />
+
+      <TextView
+          android:id="@+id/lastNameProfile"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/siennaBrown"
+          android:textSize="30sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+      <TextView
+          android:id="@+id/userNameProfile"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textAlignment="center"
+          android:textColor="@color/redBrown"
+          android:textSize="50sp" />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+
+      <TextView
+          android:id="@+id/profileFacultyOfUniversity"
+          android:layout_width="107dp"
+          android:layout_height="wrap_content"
+          android:textColor="@color/siennaBrown"
+          android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+      <LinearLayout
+          android:id="@+id/followingLayout"
+          android:layout_width="194dp"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:padding="6dp">
+
+        <TextView
+            android:id="@+id/followingNoProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/turquaz"
+            android:text="3123"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/followingNoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darker_gray"
+            android:text="Takip edilen kişi sayısı"
+            android:textSize="20sp" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/followerLayout"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:padding="6dp">
+
+        <TextView
+            android:id="@+id/followerNoProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/turquaz"
+            android:text="213"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/followerNoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darker_gray"
+            android:text="Takipçi Sayısı"
+            android:textSize="20sp" />
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="81dp"
+          android:gravity="center"
+          android:orientation="vertical"
+          android:padding="6dp">
+
+        <TextView
+            android:id="@+id/videoNoProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="231"
+            android:textColor="@color/turquaz"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/videoNoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Video Sayısı"
+            android:textColor="@color/darker_gray"
+            android:textSize="20sp" />
+
+      </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="10dp"
+          android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/emailProfile"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/peruBrown"
+            android:textSize="20sp" />
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="10dp"
+          android:gravity="center">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textColor="@color/sandyBrown"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/passwordProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/siennaBrown"
+            android:textSize="20sp" />
+
+      </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Düzenle"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/lightCoral"
+        android:id="@+id/editButton"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Çıkış Yap"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/lightCoral"
+        android:id="@+id/exitButton"/>
+
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">videp_v1</string>
+    <string name="default_web_client_id" translatable="false">https://videp-v1-default-rtdb.europe-west1.firebasedatabase.app
+
+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

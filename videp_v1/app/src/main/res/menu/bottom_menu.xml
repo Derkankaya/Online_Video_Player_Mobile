@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@mipmap/home_icon_foreground"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Explore"
+        android:id="@+id/bottom_explore"
+        android:icon="@mipmap/explore_icon_foreground"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Subscription"
+        android:id="@+id/bottom_subscriptions"
+        android:icon="@mipmap/subscript_icon_foreground"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Library"
+        android:id="@+id/bottom_library"
+        android:icon="@mipmap/library_icon_foreground"
+        app:showAsAction="ifRoom"/>
+
+</menu>

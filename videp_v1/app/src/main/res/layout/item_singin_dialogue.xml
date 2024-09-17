@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/button_bg"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txt_videp_singin"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/button_bg"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@mipmap/videp_logo_icon_foreground"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:minWidth="233dp"
+            android:padding="5dp"
+            android:text="Videp Hesabım"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txt_google_singin"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/button_bg"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@mipmap/google_icon_foreground"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:minWidth="233dp"
+            android:padding="5dp"
+            android:text="Google Hesabım"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</LinearLayout>
